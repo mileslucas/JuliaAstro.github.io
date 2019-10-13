@@ -1,7 +1,6 @@
 <template>
   <span id="docs">
-    <!-- <font-awesome-icon icon="book" /> -->
-    <a :href=url>Docs</a>
+    <a :href=url><fa icon="book"/></a>
   </span>
 </template>
 

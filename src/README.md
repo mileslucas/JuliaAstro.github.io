@@ -47,7 +47,7 @@ Packages are separated by functionality and Julia's declarative package manager 
 - Wrapper for [cfitsio](https://heasarc.gsfc.nasa.gov/fitsio/)
 - Image and table extensions
 
-### [JPLEphemeric](https://github.com/JuliaAstro/JPLEphemeric.jl) 
+### [JPLEphemeris](https://github.com/JuliaAstro/JPLEphemeris.jl) 
 **JPL Development Ephemerides**
 
 - Calculate positions and velocities of solar system bodies
@@ -90,12 +90,7 @@ Registered Julia astronomy packages hosted elsewhere
 ## Contributing
 
 Use the packages, file issues, and join the conversation!
-
-- [JuliaAstro](https://github.com/juliaastro) on GitHub
-- [julia-astro](https://groups.google.com/forum/#!forum/julia-astro) mailing list on Google Groups
-- [Astro/Space](https://discourse.julialang.org/c/domain/astro) topics on JuliaLang Discourse
-- [#JuliaAstro:openastronomy.org](https://riot.im/app/#/room/#JuliaAstro:openastronomy.org) on Matrix
-- [#astronomy](slack://channel?id=CMXU6SD7V&team=T68168MUP) on [JuliaLang Slack](https://slackinvite.julialang.org/)
+<Social />
 
 ## Google Summer of Code
 Would you like to contribute to JuliaAstro as part of Google Summer of Code? You can! We are member of OpenAstronomy, go to the GSoC page to see how to apply and the list of ideas. You can also propose us your own idea!

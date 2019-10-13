@@ -1,9 +1,10 @@
 import Vue from 'vue'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faBook } from '@fortawesome/free-solid-svg-icons'
+import { faBook, faComment, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-library.add(faBook)
+library.add(faBook, faComment, faEnvelope, faGithub)
 
 Vue.component('fa', FontAwesomeIcon)
 

@@ -58,6 +58,7 @@
     </div>
 
     <slot name="bottom"/>
+    <div class="footer" v-if="data.footer">{{ data.footer }}</div>
   </main>
 </template>
 
@@ -68,6 +69,9 @@ export default {
   props: ['sidebarItems'],
 
   computed: {
+    data() {
+      return this.$page.frontmatter;
+    },
     lastUpdated () {
       return this.$page.lastUpdated
     },
@@ -231,6 +235,14 @@ function flatten (items, res) {
     overflow auto // clear float
   .next
     float right
+
+
+.footer {
+  padding: 2.5rem;
+  border-top: 1px solid $borderColor;
+  text-align: center;
+  color: lighten($textColor, 25%);
+}
 
 @media (max-width: $MQMobile)
   .page-edit

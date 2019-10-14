@@ -7,7 +7,7 @@
       class="home-link"
     >
       <img
-        class="logo"
+        class="logo can-hide"
         v-if="$site.themeConfig.logo"
         :src="$withBase($site.themeConfig.logo)"
         :alt="$siteTitle"
@@ -16,7 +16,6 @@
         ref="siteName"
         class="site-name"
         v-if="$siteTitle"
-        :class="{ 'can-hide': $site.themeConfig.logo }"
       >{{ $siteTitle }}</span>
     </router-link>
 

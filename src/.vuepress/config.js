@@ -6,5 +6,5 @@ module.exports = {
     ],
     themeConfig: {
         logo: "/logo.svg"
-    }
+    },
 }

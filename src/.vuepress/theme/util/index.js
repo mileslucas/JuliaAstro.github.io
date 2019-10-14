@@ -149,10 +149,11 @@ export function resolveSidebarItems (page, regularPath, site, localePath) {
  * @returns { SidebarGroup }
  */
 function resolveHeaders (page) {
+  console.log(page.headers)
   const headers = groupHeaders(page.headers || [])
   return [{
     type: 'group',
-    collapsable: false,
+    collapsible: false,
     title: page.title,
     path: null,
     children: headers.map(h => ({
